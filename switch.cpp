@@ -30,8 +30,11 @@ int main(){
         case 7:
            std::cout << "It is July";
            break;
+         case 8:
+           std::cout << "It is August";
+           break;
         default:
-           std::cout << "Please enter in only numbers (1-7)";
+           std::cout << "Please enter in only numbers (1-8)";
         
     }  
 
