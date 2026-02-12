@@ -6,7 +6,7 @@ int main(){
     //first commit test
 
     int month;
-    std::cout << "Enter the month (1-7): ";
+    std::cout << "Enter the month (1-9): ";
     std::cin >> month;
 
     switch(month){ 
@@ -34,8 +34,11 @@ int main(){
          case 8:
            std::cout << "It is August";
            break;
+         case 9:
+           std::cout << "It is September";
+           break;
         default:
-           std::cout << "Please enter in only numbers (1-8)";
+           std::cout << "Please enter in only numbers (1-9)";
         
     }  
 
