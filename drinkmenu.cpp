@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    const int MAX = 100;
+    const int MAX = 100;         // declared the max number of drinks to be 100
 
     int drinkChoice[MAX];         //used arrays from lne 8 to 11 
     int quantity[MAX];             //to store the choices, quantity
@@ -55,7 +55,7 @@ int main()
         total += price[i] * quantity[i];
     }
 
-    // 🔥 PRINT RECEIPT
+    //  PRINT RECEIPT
     cout << "\n===== RECEIPT =====\n";
 
     for(int i = 0; i < numberOfItems; i++)
