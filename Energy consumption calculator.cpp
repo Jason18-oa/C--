@@ -14,7 +14,11 @@ int main(){
    int usage;
    int days;
 
-   cout << "Enter the number of appliances: \n";
+   cout << "***********************************************************";
+   cout << "************ENERGY CONSUMPTION CALCULATOR******************";
+   cout << "***********************************************************";
+
+   cout << "Enter the number of appliances of same power rating: \n";
    cin >> appliance;
 
    cout << "Enter the power rating of the appliance: \n";
@@ -30,3 +34,4 @@ int main(){
    
    return 0;
 }
+
